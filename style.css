@@ -1,0 +1,55 @@
+body{
+    background-color: #1C2120;
+    
+}
+
+
+.logo{
+
+   width: 100%;
+   max-width: 100%;
+   height: auto;
+   position: relative;
+   text-align: center;
+   padding-top: 20%;
+}
+
+.logo img{
+
+    width: 60%;
+    height: auto;
+}
+
+.login_bg{
+
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 23%;
+}
+
+.login_bg img{
+
+    width: 100%;
+    height: auto;
+    padding-bottom: 0%;
+}
+
+.user{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.user img{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    right: 20%;
+    top: 65%;
+}
+
+#txt_login{
+}
