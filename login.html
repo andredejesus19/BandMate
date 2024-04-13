@@ -1,35 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>BandMate</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="/login.js"></script>
+    <title>Login</title>
+    
 </head>
 
 <body>
 
-<div id="top">
-   <div class="logo">
-        <img src="img/logo.png" alt="logo bandmate branco">
-   </div>
+    <img class="logo_login" src="img/login/logo.png" alt="logo_bandmate_branco">
+    
 
-</div id=login>
+    <div class="bg_login"></div>
 
-    <div id="bg">
-        <div class="login_bg">
-            <img src="img/login/bg_login.png" alt="background login camp">
+    <div id="login">
+
+        <p class="txt_login">Login</p>
+        <a href="" id="continue">Sign in to continue</a>
+        
+
+        <form action="#">
+          
+        <div class="username">
+        
+            <label id="txt_user" for="username">Nome:</label>
+            <input type="text" id="username" name="username" placeholder="BandMate">
+            
+        </div class="password">
+
+            <label id="txt_pwd" for="txt_pwd">Senha:</label>
+            <input type="password" id="password" name="password">
+
+        <div class="botoes">
+            <input id="bt_enter" type="submit" value="Entrar">
+            <button id="logo_google"><img src="/img/login/logo_google.png"></button>
+        </div>
+        </form>
+
+        <div class="links">
+            <a id="lost_pwd" href="#">Esqueceu a senha?</a>
+            <a id="sign_up" href="/Acount.html">Cadastre-se!</a>
         </div>
     </div>
-
-    <div class="user">
-        <img src="img/login/user_camp.png" alt="image user camp">
-    </div>
-
-    <h1 id="txt_login">Login</h1>
-
-</div>
-
 
 </body>
 </html>

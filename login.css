@@ -1,0 +1,175 @@
+@font-face {
+    font-family: Teste;
+    src: url(/fonts/aileron/Aileron-Bold.otf);
+}
+
+body{
+    background-color: #1C2120;
+}
+
+.logo_login{
+    width: 100%;
+    max-width: 80%;
+    height: auto;
+    position: relative;
+    left: 10%;
+    top: 90px;
+}
+
+.logo_login img{
+    width: 100%;
+    height: auto;
+}
+
+.bg_login{
+    background-color: white;
+    height: 65%;
+    width: 100%;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+}
+
+.txt_login{
+    font-size: 50px;
+    margin: 0%;
+    padding: 50px;
+}
+
+#login{
+    text-align: center;
+    position: relative;
+    top: 130px;
+    font-size: 12px;
+}
+
+#txt_user{
+    display: block;
+    position: relative;
+    right: 90px;
+    bottom: 20px;
+    margin-bottom: 5px;
+    color: #8F8E8E;
+}
+
+#username{
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 20px;
+    background-color: #8F8E8E;
+    font-size: 12px;
+    padding: 5px;
+    opacity: 0.20;
+    border: none;
+    color: #1C2120;
+}
+
+#txt_pwd{
+    display: block;
+    position: relative;
+    right: 90px;
+    bottom: 20px;
+    margin-bottom: 5px;
+    color: #8F8E8E;
+}
+
+#password{
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    background-color: #8F8E8E;
+    padding: 5px;
+    opacity: 0.20;
+    border: none;
+    position: relative;
+    bottom: 20px;
+}
+
+#bt_enter{
+    display: block;
+    position: relative;
+    left: 51%;
+    bottom: 20px;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: #1C2120;
+    color: white;
+    margin-bottom: 15px;
+    border: none;
+}
+
+
+.img_google{
+    display: block;
+    position: relative;
+    left: 13%;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: #1C2120;
+    color: white;
+    margin-bottom: 15px;
+    border: none;
+}
+
+
+.img_google img{
+    width: 3%;
+    height: auto;
+}
+
+#lost_pwd{
+    display: block;
+    text-decoration: none;
+    color: #8F8E8E;
+    padding: 5px;
+}
+
+#sign_up{
+    text-decoration: none;
+    color: #8F8E8E;
+    position: relative;
+    padding: 0%;
+}
+
+#logo_google{
+    display: block;
+    position: relative;
+    left: 13%;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    bottom: 64.5px;
+}
+
+#logo_google img{
+    width: 25%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 5px;
+    position: relative;
+    top: 3px;
+
+}
+
+.links{
+    position: relative;
+    bottom: 35px;
+}
+
+#continue{
+    font-size: 12px;
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #8F8E8E;
+}
